@@ -184,7 +184,7 @@ function _mapStateToProps(state) {
         });
     }
 
-    if (showModeratorSettings || showLanguageSettings) {
+    if (showModeratorSettings) {
         tabs.push({
             name: SETTINGS_TABS.MORE,
             component: MoreTab,
